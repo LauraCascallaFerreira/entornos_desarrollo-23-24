@@ -10,19 +10,21 @@ public class ejercicio04 {
     por teclado. Por ejemplo, si defino un array de tamaño 5 y elijo un 3 en la función, el
     array contendrá 3, 6, 9, 12, 15. Muéstralos por pantalla usando otra función distinta.*/
     
+    public static void multiplos(int arr[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Dame un número: ");
+        int num=sc.nextInt();
+        for(int i=0; i<arr.length; i++){
+            arr[i]=num*i;
+        }
+        System.out.println(Arrays.toString(arr));
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Dame el tamaño del array:");
         int tamaño=sc.nextInt();
         int arr[] = new int[tamaño];
 
-        System.out.println("Dame un número: ");
-        int num=sc.nextInt();
-
-        for(int i=0; i<arr.length; i++){
-            arr[i]=num*i;
-        }
-
-        System.out.println(Arrays.toString(arr));
+        multiplos(arr);
     }
 }

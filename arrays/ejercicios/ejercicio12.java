@@ -12,7 +12,6 @@ public class ejercicio12 {
     Aprobados 5-6
     Notables 7-8
     Sobresalientes 9-10 */
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         float arr[] = new float[10];

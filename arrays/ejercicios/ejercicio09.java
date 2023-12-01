@@ -3,6 +3,8 @@ package ejercicios;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//ESTE TAMPOCO ESTA BIEN HAY QUE REVISARLO
+
 public class ejercicio09 {
 
     /*Pedir por teclado el tamaño de un array de números y pedir los valores numéricos
@@ -17,9 +19,6 @@ public class ejercicio09 {
 
         System.out.println("Dame cinco valores: ");
         for(int i=0; i<arr.length; i++){
-            
-
-            
         }
 
         System.out.println(Arrays.toString(arr));
