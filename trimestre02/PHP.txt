@@ -1,0 +1,11 @@
+MOSTRAR ARRAYS
+var_dump($nombreArray);
+print_r($nombreArray);
+-->Se puede almacenar cualquier tipo de variable mezcladas
+AÑADIR ARRAYS
+$nombreArray[]='';
+BORRAR ALGO EN UN ARRAY
+unset($nombreArray[posición]);
+--------------------------------------------
+programadorwbvalencia.com/cursos/php/arrays |
+--------------------------------------------
